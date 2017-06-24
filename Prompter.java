@@ -1,17 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package jar;
 import java.util.Random;
 import java.util.Scanner;
-/**
- *
- * @author Li
- */
 
-public class Jar {
+public class Prompter {
     public int input;
     public String jarName;
     int maxNumberAllowed;
