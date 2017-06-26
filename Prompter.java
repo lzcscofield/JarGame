@@ -16,13 +16,13 @@ public class Prompter {
     }
     
     //Generate random number base on user input
-    public void RandomGem(){
+    public void fill(){
         Random random = new Random();
         System.out.printf("Maximum number of %s in the jar :",jarName);
         Scanner sc = new Scanner(System.in);
         input = sc.nextInt();
         maxNumberAllowed = input;
-        randomNumber = random.nextInt(maxNumberAllowed);
+        randomNumber = random.nextInt(maxNumberAllowed)+1;
         //System.out.println(randomNumber);
     }
     //player guess

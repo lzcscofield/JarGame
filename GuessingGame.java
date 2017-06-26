@@ -3,7 +3,7 @@ public class GuessingGame {
        Prompter jar = new Prompter();
         System.out.println("------------Guess Jar Game------------");
         jar.printName();
-        jar.RandomGem();
+        jar.fill();
         System.out.println("------------Let's Play----------------");
         jar.Guess();
         jar.Compare();
